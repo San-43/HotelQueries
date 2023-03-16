@@ -35,7 +35,8 @@ int assign_group(int v, int tl, int tr, int x, vector<int>& t) {
 }
 
 int main() {
-    int n, m;
+    int n;
+    int m;
     cin >> n >> m;
 
     free_rooms.resize(n);
